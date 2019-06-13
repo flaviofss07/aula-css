@@ -1,0 +1,48 @@
+/*
+h1 {
+    color: brown; 
+    text-align: center; 
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+p {
+    background: chocolate;
+    color: blueviolet;
+    font-style: italic;
+    font-size: 16pt;
+    margin: 0px 40px;
+    border-radius: 10px;
+}
+
+#titulo2 {
+    color: blue;
+}
+*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');*/
+
+@font-face{
+    font-family: ubuntu;
+    src: url('../fontes/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+.alinhamento-centralizado {
+    text-align: center;
+}
+
+.cor-fonte-azul {   
+    color: blue;
+}
+
+.texto-em-maiusculo {
+    text-transform: center;
+}
+
+#autor {
+    font-family: 'ubuntu';
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: right;
+
+}
